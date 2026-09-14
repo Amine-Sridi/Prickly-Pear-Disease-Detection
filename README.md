@@ -59,8 +59,8 @@ The model predicts a bounding box, class label, and confidence score for each de
 ## Installation
 
 ```bash
-git clone https://github.com/mohamedazizncir/cactus-disease
-cd cactus-disease
+git clone https://github.com/Amine-Sridi/Prickly-Pear-Disease-Detection.git
+cd Prickly-Pear-Disease-Detection
 python -m pip install -r requirements.txt
 ```
 
