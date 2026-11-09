@@ -1,0 +1,8 @@
+# Pinned for the whole study (chosen 2026-11-07; each release is >= 2 weeks old).
+# torch / torchvision are NOT pinned on purpose: Colab's preinstalled CUDA build is kept
+# (reinstalling torch on Colab often breaks CUDA). Their versions are recorded in every run JSON.
+ultralytics==8.4.183
+diffusers==0.41.0
+transformers==5.20.2
+accelerate==1.15.0
+peft==0.21.2

@@ -1,0 +1,76 @@
+{
+  "upstream_repo": "AnasBerka/CactiViT-materials",
+  "upstream_commit": "730447f9bc1b05bbd58377c4fa271bc20583963e",
+  "rules": {
+    "burst_seconds": 30,
+    "copy_cos": 0.97,
+    "copy_scales": [
+      1,
+      2,
+      4
+    ],
+    "fractions": {
+      "train": 0.6,
+      "val": 0.2,
+      "test": 0.2
+    },
+    "seed": 0,
+    "assignment": "greedy by relative deficit, Healthy groups first"
+  },
+  "n_tiles": 3252,
+  "n_sources": 441,
+  "n_groups": 175,
+  "per_split": {
+    "train": {
+      "tiles": 1888,
+      "Healthy": 73,
+      "Diseased": 1815,
+      "groups": 130,
+      "healthy_groups": 24,
+      "healthy_sources": 40,
+      "upstream_folders": {
+        "Healthy": 73,
+        "LateStage": 1479,
+        "Damaged": 83,
+        "EarlyStage": 181,
+        "Old_Dead": 72
+      }
+    },
+    "val": {
+      "tiles": 733,
+      "Healthy": 25,
+      "Diseased": 708,
+      "groups": 8,
+      "healthy_groups": 7,
+      "healthy_sources": 10,
+      "upstream_folders": {
+        "Healthy": 25,
+        "Damaged": 3,
+        "EarlyStage": 51,
+        "LateStage": 641,
+        "Old_Dead": 13
+      }
+    },
+    "test": {
+      "tiles": 631,
+      "Healthy": 25,
+      "Diseased": 606,
+      "groups": 37,
+      "healthy_groups": 8,
+      "healthy_sources": 15,
+      "upstream_folders": {
+        "Healthy": 25,
+        "LateStage": 505,
+        "Old_Dead": 18,
+        "EarlyStage": 69,
+        "Damaged": 14
+      }
+    }
+  },
+  "audit": {
+    "sources_spanning_splits": 0,
+    "identical_files_spanning_splits": 0,
+    "cross_split_tile_pairs_cos_ge_0_95": 0,
+    "cross_split_examples": []
+  }
+}

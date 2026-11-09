@@ -1,0 +1,611 @@
+{
+  "counts": {
+    "train/Healthy": {
+      "images": 86,
+      "boxes": 86,
+      "missing_label": 0,
+      "empty_label": 0,
+      "sizes": [
+        [
+          "256x256",
+          82
+        ],
+        [
+          "256x208",
+          4
+        ]
+      ],
+      "modes": [
+        [
+          "RGB",
+          86
+        ]
+      ],
+      "class_ids": [
+        [
+          0,
+          86
+        ]
+      ],
+      "class_id_mismatch_folder": 0,
+      "distinct_boxes": [
+        [
+          [
+            0.5,
+            0.5,
+            1.0,
+            1.0
+          ],
+          86
+        ]
+      ],
+      "boxes_per_image": [
+        [
+          1,
+          86
+        ]
+      ],
+      "tile_px": [
+        [
+          [
+            1024,
+            1024
+          ],
+          49
+        ],
+        [
+          [
+            256,
+            256
+          ],
+          37
+        ]
+      ],
+      "unparsed_names": 0
+    },
+    "train/Diseased": {
+      "images": 2189,
+      "boxes": 2189,
+      "missing_label": 0,
+      "empty_label": 0,
+      "sizes": [
+        [
+          "256x256",
+          2052
+        ],
+        [
+          "256x208",
+          116
+        ],
+        [
+          "132x256",
+          21
+        ]
+      ],
+      "modes": [
+        [
+          "RGB",
+          2189
+        ]
+      ],
+      "class_ids": [
+        [
+          1,
+          2189
+        ]
+      ],
+      "class_id_mismatch_folder": 0,
+      "distinct_boxes": [
+        [
+          [
+            0.5,
+            0.5,
+            1.0,
+            1.0
+          ],
+          2189
+        ]
+      ],
+      "boxes_per_image": [
+        [
+          1,
+          2189
+        ]
+      ],
+      "tile_px": [
+        [
+          [
+            1024,
+            1024
+          ],
+          1499
+        ],
+        [
+          [
+            256,
+            256
+          ],
+          687
+        ],
+        [
+          [
+            512,
+            512
+          ],
+          3
+        ]
+      ],
+      "unparsed_names": 0
+    },
+    "val/Healthy": {
+      "images": 18,
+      "boxes": 18,
+      "missing_label": 0,
+      "empty_label": 0,
+      "sizes": [
+        [
+          "256x256",
+          18
+        ]
+      ],
+      "modes": [
+        [
+          "RGB",
+          18
+        ]
+      ],
+      "class_ids": [
+        [
+          0,
+          18
+        ]
+      ],
+      "class_id_mismatch_folder": 0,
+      "distinct_boxes": [
+        [
+          [
+            0.5,
+            0.5,
+            1.0,
+            1.0
+          ],
+          18
+        ]
+      ],
+      "boxes_per_image": [
+        [
+          1,
+          18
+        ]
+      ],
+      "tile_px": [
+        [
+          [
+            1024,
+            1024
+          ],
+          13
+        ],
+        [
+          [
+            256,
+            256
+          ],
+          5
+        ]
+      ],
+      "unparsed_names": 0
+    },
+    "val/Diseased": {
+      "images": 468,
+      "boxes": 468,
+      "missing_label": 0,
+      "empty_label": 0,
+      "sizes": [
+        [
+          "256x256",
+          437
+        ],
+        [
+          "256x208",
+          27
+        ],
+        [
+          "132x256",
+          4
+        ]
+      ],
+      "modes": [
+        [
+          "RGB",
+          468
+        ]
+      ],
+      "class_ids": [
+        [
+          1,
+          468
+        ]
+      ],
+      "class_id_mismatch_folder": 0,
+      "distinct_boxes": [
+        [
+          [
+            0.5,
+            0.5,
+            1.0,
+            1.0
+          ],
+          468
+        ]
+      ],
+      "boxes_per_image": [
+        [
+          1,
+          468
+        ]
+      ],
+      "tile_px": [
+        [
+          [
+            1024,
+            1024
+          ],
+          338
+        ],
+        [
+          [
+            256,
+            256
+          ],
+          130
+        ]
+      ],
+      "unparsed_names": 0
+    },
+    "test/Healthy": {
+      "images": 19,
+      "boxes": 19,
+      "missing_label": 0,
+      "empty_label": 0,
+      "sizes": [
+        [
+          "256x256",
+          19
+        ]
+      ],
+      "modes": [
+        [
+          "RGB",
+          19
+        ]
+      ],
+      "class_ids": [
+        [
+          0,
+          19
+        ]
+      ],
+      "class_id_mismatch_folder": 0,
+      "distinct_boxes": [
+        [
+          [
+            0.5,
+            0.5,
+            1.0,
+            1.0
+          ],
+          19
+        ]
+      ],
+      "boxes_per_image": [
+        [
+          1,
+          19
+        ]
+      ],
+      "tile_px": [
+        [
+          [
+            1024,
+            1024
+          ],
+          10
+        ],
+        [
+          [
+            256,
+            256
+          ],
+          9
+        ]
+      ],
+      "unparsed_names": 0
+    },
+    "test/Diseased": {
+      "images": 472,
+      "boxes": 472,
+      "missing_label": 0,
+      "empty_label": 0,
+      "sizes": [
+        [
+          "256x256",
+          443
+        ],
+        [
+          "256x208",
+          24
+        ],
+        [
+          "132x256",
+          5
+        ]
+      ],
+      "modes": [
+        [
+          "RGB",
+          472
+        ]
+      ],
+      "class_ids": [
+        [
+          1,
+          472
+        ]
+      ],
+      "class_id_mismatch_folder": 0,
+      "distinct_boxes": [
+        [
+          [
+            0.5,
+            0.5,
+            1.0,
+            1.0
+          ],
+          472
+        ]
+      ],
+      "boxes_per_image": [
+        [
+          1,
+          472
+        ]
+      ],
+      "tile_px": [
+        [
+          [
+            1024,
+            1024
+          ],
+          336
+        ],
+        [
+          [
+            256,
+            256
+          ],
+          136
+        ]
+      ],
+      "unparsed_names": 0
+    }
+  },
+  "orphan_labels": {
+    "train/Healthy": 0,
+    "train/Diseased": 0,
+    "val/Healthy": 0,
+    "val/Diseased": 0,
+    "test/Healthy": 0,
+    "test/Diseased": 0
+  },
+  "DatasetPreped_vs_2": {
+    "identical": 3252,
+    "different": 0,
+    "missing_in_DatasetPreped": 0
+  },
+  "source_photos": {
+    "unique_sources_total": 441,
+    "unique_sources_per_split": {
+      "train": 418,
+      "val": 265,
+      "test": 274
+    },
+    "sources_shared_between_splits": {
+      "train&val": 250,
+      "train&test": 261,
+      "val&test": 181
+    },
+    "sources_in_all_three": 176,
+    "sources_with_both_classes": 56,
+    "name_families": [
+      [
+        "img_YYYYMMDD_HHMMSS",
+        273
+      ],
+      [
+        "uuid",
+        158
+      ],
+      [
+        "img-YYYYMMDD-waNNNN",
+        8
+      ],
+      [
+        "other",
+        2
+      ]
+    ]
+  },
+  "tile_level_leakage": {
+    "val/Healthy": {
+      "tiles": 18,
+      "source_also_in_train": 18,
+      "frac": 1.0
+    },
+    "val/Diseased": {
+      "tiles": 468,
+      "source_also_in_train": 452,
+      "frac": 0.9658
+    },
+    "val/all": {
+      "tiles": 486,
+      "source_also_in_train": 470,
+      "frac": 0.9671
+    },
+    "test/Healthy": {
+      "tiles": 19,
+      "source_also_in_train": 17,
+      "frac": 0.8947
+    },
+    "test/Diseased": {
+      "tiles": 472,
+      "source_also_in_train": 460,
+      "frac": 0.9746
+    },
+    "test/all": {
+      "tiles": 491,
+      "source_also_in_train": 477,
+      "frac": 0.9715
+    }
+  },
+  "capture_dates_tiles": {
+    "train": {
+      "no-date(uuid)": 676,
+      "20210327": 229,
+      "20210523": 1370
+    },
+    "val": {
+      "no-date(uuid)": 129,
+      "20210327": 42,
+      "20210523": 315
+    },
+    "test": {
+      "no-date(uuid)": 136,
+      "20210327": 46,
+      "20210523": 309
+    }
+  },
+  "exact_duplicates": {
+    "groups": 61,
+    "cross_split_groups": 22,
+    "cross_class_groups": 0,
+    "examples": [
+      [
+        "train/Diseased/269adfdd-b618-4bb1-b449-cb10145fa79d_256_512_0_256.png",
+        "train/Diseased/img-20210327-wa0084_256_512_0_256.png"
+      ],
+      [
+        "train/Diseased/269adfdd-b618-4bb1-b449-cb10145fa79d_256_512_1024_1280.png",
+        "train/Diseased/img-20210327-wa0084_256_512_1024_1280.png"
+      ],
+      [
+        "train/Diseased/269adfdd-b618-4bb1-b449-cb10145fa79d_256_512_768_1024.png",
+        "train/Diseased/img-20210327-wa0084_256_512_768_1024.png"
+      ],
+      [
+        "train/Diseased/46cc5048-63c2-476d-9ba1-e4848573c624_0_256_0_256.png",
+        "train/Diseased/img-20210327-wa0070_0_256_0_256.png"
+      ],
+      [
+        "train/Diseased/46cc5048-63c2-476d-9ba1-e4848573c624_0_256_512_768.png",
+        "train/Diseased/img-20210327-wa0070_0_256_512_768.png"
+      ]
+    ]
+  },
+  "near_duplicates_vs_train": {
+    "val": {
+      "n": 486,
+      "dhash<=4_any": 16,
+      "dhash<=4_other_src": 16,
+      "thumbcos>=0.95_any": 16,
+      "thumbcos>=0.95_other_src": 16
+    },
+    "test": {
+      "n": 491,
+      "dhash<=4_any": 18,
+      "dhash<=4_other_src": 18,
+      "thumbcos>=0.95_any": 18,
+      "thumbcos>=0.95_other_src": 18
+    }
+  },
+  "near_duplicate_examples": [
+    {
+      "query": "val/Diseased/46cc5048-63c2-476d-9ba1-e4848573c624_0_256_1024_1280.png",
+      "train_match": "train/Diseased/img-20210327-wa0070_0_256_1024_1280.png",
+      "cos": 1.0,
+      "dhash": 0
+    },
+    {
+      "query": "val/Diseased/46cc5048-63c2-476d-9ba1-e4848573c624_0_256_256_512.png",
+      "train_match": "train/Diseased/img-20210327-wa0070_0_256_256_512.png",
+      "cos": 1.0,
+      "dhash": 0
+    },
+    {
+      "query": "val/Diseased/46cc5048-63c2-476d-9ba1-e4848573c624_256_512_0_256.png",
+      "train_match": "train/Diseased/img-20210327-wa0070_256_512_0_256.png",
+      "cos": 1.0,
+      "dhash": 0
+    },
+    {
+      "query": "val/Diseased/46cc5048-63c2-476d-9ba1-e4848573c624_512_768_0_256.png",
+      "train_match": "train/Diseased/img-20210327-wa0070_512_768_0_256.png",
+      "cos": 1.0,
+      "dhash": 0
+    },
+    {
+      "query": "val/Diseased/5efde725-3a0f-4ad1-9d34-ef20e2b2bc81_256_512_256_512.png",
+      "train_match": "train/Diseased/img-20210327-wa0068_256_512_256_512.png",
+      "cos": 1.0,
+      "dhash": 0
+    },
+    {
+      "query": "val/Diseased/7e817ecf-079c-42d3-9ad9-331ae428f907_256_512_768_1024.png",
+      "train_match": "train/Diseased/img-20210327-wa0078_256_512_768_1024.png",
+      "cos": 1.0,
+      "dhash": 0
+    },
+    {
+      "query": "val/Diseased/af973082-419e-4329-af5f-185eeba45844_256_512_768_1024.png",
+      "train_match": "train/Diseased/img-20210327-wa0074_256_512_768_1024.png",
+      "cos": 1.0,
+      "dhash": 0
+    },
+    {
+      "query": "val/Diseased/c39b2b81-ebd9-4f1c-a586-a43c7a603af6_0_256_0_256.png",
+      "train_match": "train/Diseased/img_20210327_173054_0_1024_0_1024.png",
+      "cos": 0.9998,
+      "dhash": 1
+    },
+    {
+      "query": "val/Diseased/edb6757a-a85e-468f-a785-11e8a1203ce2_512_768_768_1024.png",
+      "train_match": "train/Diseased/img_20210327_172841_2048_3072_3072_4096.png",
+      "cos": 0.9999,
+      "dhash": 0
+    },
+    {
+      "query": "val/Diseased/img-20210327-wa0068_256_512_768_1024.png",
+      "train_match": "train/Diseased/5efde725-3a0f-4ad1-9d34-ef20e2b2bc81_256_512_768_1024.png",
+      "cos": 1.0,
+      "dhash": 0
+    },
+    {
+      "query": "val/Diseased/img-20210327-wa0070_256_512_768_1024.png",
+      "train_match": "train/Diseased/46cc5048-63c2-476d-9ba1-e4848573c624_256_512_768_1024.png",
+      "cos": 1.0,
+      "dhash": 0
+    },
+    {
+      "query": "val/Diseased/img-20210327-wa0074_256_512_0_256.png",
+      "train_match": "train/Diseased/af973082-419e-4329-af5f-185eeba45844_256_512_0_256.png",
+      "cos": 1.0,
+      "dhash": 0
+    }
+  ],
+  "adjacent_tiles": {
+    "val_touching_train_tile": 452,
+    "val_total": 486,
+    "test_touching_train_tile": 457,
+    "test_total": 491
+  }
+}

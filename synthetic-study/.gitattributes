@@ -1,0 +1,4 @@
+# keep byte-identical files on Windows and Colab (hashes of split CSVs are recorded in run JSONs)
+* text=auto eol=lf
+*.png binary
+*.jpg binary
